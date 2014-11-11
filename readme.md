@@ -7,7 +7,7 @@
   * edit system path variable
     * rigth click MyComputer -> properties
     * "advanced" tab -> "Environment Variables"
-    * edit "Path" variable -> add ";C:\swigwin\;C:\python27\" on the end of line.
+    * edit "Path" variable -> add ";C:\swigwin\;C:\python27\;C:\python27\Scripts\" on the end of line.
 
 ### 2. Microsoft Visual C++ Studio 2008 Express:
   * download and install : http://go.microsoft.com/?linkid=7729279 
