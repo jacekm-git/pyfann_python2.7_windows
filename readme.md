@@ -32,7 +32,7 @@ swig -c++ -python pyfann.i
   * open in Visual C++ Studio 2008 C:\fann\python\pyfann.wrap.cxx
     *  find line( ctrl+f) : SWIGINTERN PyObject     *_wrap_training_data_parent_create_train_from_callback
 
-```c+++
+```c++
 SWIGINTERN PyObject *_wrap_training_data_parent_create_train_from_callback(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   FANN::training_data *arg1 = (FANN::training_data *) 0 ;
@@ -45,7 +45,7 @@ SWIGINTERN PyObject *_wrap_training_data_parent_create_train_from_callback(PyObj
 
 change to:
 
-```c+++
+```c++
 typedef void (__stdcall *arg5_fn)(unsigned int, unsigned int, unsigned int, fann_type*, fann_type*); // added line 
 SWIGINTERN PyObject *_wrap_training_data_parent_create_train_from_callback(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
