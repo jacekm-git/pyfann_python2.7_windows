@@ -83,4 +83,5 @@ ext_modules=[Extension('pyfann._libfann',['pyfann/pyfann_wrap.cxx'],
 ```sh
 cd C:\fann\python\
 python setup.py install
+cp C:\fann\python\pyfann\fanndoubled.dll C:\Python27\Lib\site-packages\pyfann\
 ```
